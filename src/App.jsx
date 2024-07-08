@@ -1,7 +1,8 @@
 
 import { Banner } from "./components/Banner"
 import {Cabecalho}  from "./components/Cabecalho"
-import { Card } from "./components/Card"
+import { MiniBanner } from "./components/MiniBanners"
+import { Galeria } from "./components/Galeria"
 import { Rodape } from "./components/Rodape"
 
 export const App = () => {
@@ -9,7 +10,8 @@ export const App = () => {
     <>
       <Cabecalho/>
       <Banner/>
-      <Card/>
+      <MiniBanner/>
+      <Galeria/>
       <Rodape/>
       
     </>

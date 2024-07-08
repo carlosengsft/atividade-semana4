@@ -1,0 +1,15 @@
+.galeria{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    h2{
+        font-size: 2.2rem;
+    }
+}
+.galeria-itens{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
