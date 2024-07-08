@@ -3,6 +3,8 @@ import { IoBagHandleOutline } from "react-icons/io5";
 import '../styles/cabecalho.css'
 import Logo from '../assets/wootech.svg'
 import Avatar from '../assets/avatar.svg'
+import login from '../assets/login.png'
+import cadastro from '../assets/cadastro.png'
 
 export const Cabecalho = () =>{
   return(
@@ -13,14 +15,13 @@ export const Cabecalho = () =>{
             </div>
             <section className='nav-top'>
                 <ul className='nav-items top'>
-                    <li><a href="#"></a>Nossa loja</li>
-                    <li><a href="#"></a>Tenha sua loja</li>
-                    <li><a href="#"></a>Regulamentos</li>
-                    <li><a href="#"></a>Acessibilidade</li>
-                    <li><a href="#"></a>Segurança & Privacidade</li>
-                    <li><a href="#"></a>Atencimento</li>
-                    <li><a href="#"></a>Compre pelo telefone:xx xxxxx-xxxx</li>
-                    <li><a href="#"></a>Meus pedidos</li>
+                    <a href="#"><li>Nossa loja</li></a>
+                    <a href="#"><li>Tenha sua loja</li></a>
+                    <a href="#"><li>Regulamentos</li></a>
+                    <a href="#"><li>Acessibilidade</li></a>
+                    <a href="#"><li>Segurança & Privacidade</li></a>
+                    <a href="#"><li>Atencimento</li></a>
+                    <a href="#"><li>Meus pedidos</li></a>
                 </ul>
             </section>
             <section className='nav-items nav-center'>
@@ -32,13 +33,20 @@ export const Cabecalho = () =>{
                     </form>
                     </div>
 
-                <div>
-                    <p>Bem vindo</p>
-                    <p>Entre ou Cadastre-se</p>
+                <div className="login-cadastrar">
+                    <div className="login">
+                        <img src={login} alt="Login" />
+                        <a href="#">login</a>
+                        
+                    </div>
+                    <div className='cadastrar'>
+                        <img src={cadastro} alt="Cadastro" />
+                         <a href="#">cadastrar</a>
+                    </div>
+                    
                 </div>
                 <div>
-                    <img src="" alt="" />
-                    <p>Ofertas na região</p>
+                    <a href="#">Ofertas na região</a>
                 </div>
                 <div>
                     <div className="icons-react">
@@ -53,12 +61,12 @@ export const Cabecalho = () =>{
             </section>
             <section className='nav-bottom'>
                 <ul className='nav-items bottom'>
-                    <li>Oferta do Dia</li>
-                    <li>Celulares</li>
-                    <li>Compuadores</li>
-                    <li>Tv e Video</li>
-                    <li>Saldao</li>
-                    <li>Cartões</li>
+                    <a href="#"><li>Oferta do Dia</li></a>
+                    <a href="#"><li>Celulares</li></a>
+                    <a href="#"><li>Computadores</li></a>
+                    <a href="#"><li>Tv e Video</li></a>
+                    <a href="#"><li>Saldão</li></a>
+                    <a href="#"><li>Cartões</li></a>
                 </ul>
             </section>
        </header>

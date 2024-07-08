@@ -8,8 +8,6 @@
 
   background-color: #067ee0;
   color: white;
-
-  font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
 }
 /* Fim do cabeçalho */
@@ -69,7 +67,45 @@
   img{
     width: 150px;
   }
+  .login{
+    text-align: center;
+  }
 }
+
+.login{
+  width: 100%;
+  background-color: #e4ce0a;
+  height: 30px;
+  
+  border-radius: 10px;
+  cursor: pointer;
+
+
+}
+.cadastrar {
+  width: 100%;
+  background-color: #e4ce0a;
+  height: 30px;
+  border-radius: 10px;
+
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cadastrar, .login{
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  a {
+      color: black;
+    }
+
+  img{
+    width: 20px;
+  }
+}
+
+
+
 /* Fim da navegação central */
 /* Navegação de baixo */
 .nav-bottom {
@@ -81,11 +117,11 @@
 .nav-items{
   display: flex;
   justify-content: space-around;
-  cursor: pointer;
 }
 /* Fim de itens gerais de listas */
 /* Icones react */
 .icons-react{
   gap: 10px;
+  cursor: pointer;
 }
 /* Fim icones react */

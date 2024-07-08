@@ -1,0 +1,22 @@
+.card-ofertas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin: 0 auto;
+    padding: 20px;
+    gap: 5px;
+    
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid #07599e;
+    }
+    img:hover{
+       width: 103%;
+       position: relative;
+  
+    }
+}
+
