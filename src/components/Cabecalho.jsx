@@ -30,7 +30,7 @@ export const Cabecalho = () =>{
                 </ul>
             </section>
             <section className='nav-items nav-center'>
-                <div><img src={Logo} alt="Logo Woow Tech" /></div>
+                <div><img className="logo" src={Logo} alt="Logo Woow Tech" /></div>
                     <div className="container-busca">
                     <form className="form-busca">
                         <input className="btn-texto" type="text" name="busca" placeholder="Busca no WoowTech"/>
@@ -50,7 +50,7 @@ export const Cabecalho = () =>{
                     </div>
                     
                 </div>
-                <div>
+                <div className="oferta-regiao">
                     <a href="#">Ofertas na região</a>
                 </div>
                 <div>

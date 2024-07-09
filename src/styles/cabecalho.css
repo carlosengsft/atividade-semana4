@@ -111,3 +111,30 @@
   cursor: pointer;
 }
 /* Fim icones react */
+
+@media(max-width: 768px){
+  .nav-top{
+    display: none;
+  }
+  .container-busca{
+    display: none;
+  }
+  .avatar{
+    display: none;
+  }
+  .nav-bottom{
+    display: none;
+  }
+  .oferta-regiao, .icons-react{
+    display: none;
+  }
+  .nav-center{
+    display: flex;
+    flex-direction: column;
+    .logo{
+      width: 100%;
+    }
+  }
+
+}
+  
