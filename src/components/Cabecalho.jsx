@@ -6,7 +6,12 @@ import Avatar from '../assets/avatar.svg'
 import login from '../assets/login.png'
 import cadastro from '../assets/cadastro.png'
 
+const handleClick = () => {
+        alert('Pagina em desenvolvimento!');
+};
+
 export const Cabecalho = () =>{
+    
   return(
     <>
        <header className='cabecalho'>
@@ -34,14 +39,14 @@ export const Cabecalho = () =>{
                     </div>
 
                 <div className="login-cadastrar">
-                    <div className="login">
-                        <img src={login} alt="Login" />
-                        <a href="#">login</a>
-                        
+                    
+                    <div className='cadastrar'>
+                        <img src={login} alt="Cadastro" />
+                         <button  onClick={handleClick}>login</button>
                     </div>
                     <div className='cadastrar'>
                         <img src={cadastro} alt="Cadastro" />
-                         <a href="#">cadastrar</a>
+                         <button  onClick={handleClick}>cadastrar</button>
                     </div>
                     
                 </div>

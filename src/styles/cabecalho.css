@@ -71,34 +71,20 @@
     text-align: center;
   }
 }
-
-.login{
-  width: 100%;
-  background-color: #e4ce0a;
-  height: 30px;
-  
-  border-radius: 10px;
-  cursor: pointer;
-
-
-}
-.cadastrar {
-  width: 100%;
-  background-color: #e4ce0a;
-  height: 30px;
-  border-radius: 10px;
-
-  margin-top: 10px;
-  cursor: pointer;
-}
+ .login, .cadastrar button {
+   background-color: #e4ce0a;
+   border: 1px solid white;
+   color: #201f1f;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   width: 100px;
+ }
 .cadastrar, .login{
+  width: 100%;
   display: flex;
   gap: 20px;
   padding: 5px;
-  a {
-      color: black;
-    }
-
   img{
     width: 20px;
   }
